@@ -3,6 +3,7 @@ on:
   push:
     banches:
       - "master"
+      - "main"
 jobs:
   model-ci:
     runs-on: ubuntu-latest
