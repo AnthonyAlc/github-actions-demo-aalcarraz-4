@@ -8,7 +8,7 @@ jobs:
         run: echo "Build model in CI Pipeline"
   model-cd:
     needs: model-ci
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy Model
         run: echo "Deploy model in CD Pipeline"
