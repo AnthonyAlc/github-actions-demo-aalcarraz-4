@@ -7,7 +7,7 @@ env:
   DB_NAME: db-name
 jobs:
   model-ci:
-    enviromant: exploracion
+    enviroment: exploracion
     env:
       DB_ADDRESS: my.database.address
       DB_USERNAME: ${{secrets.DB_USERNAME}}
