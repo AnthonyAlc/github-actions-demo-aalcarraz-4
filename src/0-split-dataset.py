@@ -2,6 +2,7 @@ import pandas as pd
 import fire
 import os
 
+# comentario prueba para validar filtro .py
 
 def split_data(df_data, perc_data_train):
     df_data_train = df_data.sample(frac=perc_data_train)
