@@ -1,6 +1,8 @@
 name: My event Workflow
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     banches:
       - "master"
       - "main"
